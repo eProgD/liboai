@@ -20,7 +20,7 @@
 namespace liboai {
 	class Network {			
 		public:
-			Network() noexcept = default;
+			Network() = default;
 			Network(Network&&) = delete;
 			Network(const Network&) = delete;
 		
